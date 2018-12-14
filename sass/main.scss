@@ -1,0 +1,104 @@
+@import "fonts";
+
+body{
+  .wrapper{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    .header{
+      grid-column: 1/13;
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: auto;
+      margin: 0;
+      padding: 0;
+      .header_secondary {
+        grid-column: 1/13;
+        grid-row: auto;
+        display: flex;
+        justify-content: center;
+        background-color: #191919;
+        .header_secondary-info {
+          display: flex;
+          .header_secondary-info-item {
+            padding: 12px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-family: openSansSemiBold;
+            font-size: 12px;
+            color: #f1f1f1;
+            &:nth-child(11) {
+              font-family: openSansExtraBold;
+            }
+            &:nth-child(13) {
+              font-family: openSansExtraBold;
+              color: #f68100;
+            }
+          }
+          .header_secondary-info-sep{
+            padding: 12px;
+            font-size: 12px;
+            color: #f1f1f1;
+          }
+        }
+      }
+      .header_primary{
+        grid-column: 1/13;
+        grid-row: auto;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1/12;
+        grid-template-rows: auto;
+        .header_primary-logo{
+          grid-column: 4/5;
+          grid-row: auto;
+        }
+        .header_primary-menu{
+          grid-column: 6/8;
+          grid-row: auto;
+          .header_primary-menu-list{
+            display: flex;
+            .header_primary-menu-list-item{
+              padding: 0 10px;
+              font-size: 14px;
+              font-family: openSansCondensedBold;
+              color: #000;
+              text-transform: uppercase;
+              list-style: none;
+              &:nth-child(4){
+                color: #ff8f00;
+              }
+              .header_primary-menu-list-item-link{
+                text-decoration: none;
+                &:hover{
+                  border-bottom: 1px solid #000;
+                }
+              }
+            }
+          }
+        }
+        .header_primary-language{
+          grid-column: 9/12;
+          grid-row: auto;
+          .header_primary-language-list{
+            display: flex;
+            .header_primary-language-list-item{
+              padding: 0 10px;
+              font-family: openSansCondensedBold;
+              font-size: 14px;
+              text-transform: uppercase;
+              list-style: none;
+              .header_primary-language-list-item-link{
+                text-decoration: none;
+                color: #a3a3a3;
+              }
+              .header_primary-language-list-item-link-active{
+                color: #000;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
