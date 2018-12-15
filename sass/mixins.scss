@@ -1,0 +1,26 @@
+//MIXINS
+
+//SECTION ONE
+
+@mixin verses{
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0 15px;
+  font-family: futuraBoldItalic;
+  font-size: 70px;
+  color: black;
+  text-transform: uppercase;
+  background: black;
+  transform: rotate(2deg);
+}
+
+@mixin versesBefore{
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 0 7.5px;
+  color: #fff;
+  transform: rotate(-2deg);
+}

@@ -10,6 +10,12 @@
 @font-face {
   font-family: openSansCondensedBold;
   src: url("../fonts/OpenSans-CondBold.ttf"); }
+@font-face {
+  font-family: futuraBoldItalic;
+  src: url("../fonts/FuturaBoldItalic.ttf"); }
+@font-face {
+  font-family: bebasNeue;
+  src: url("../fonts/BebasNeue-Regular.ttf"); }
 body .wrapper {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -89,5 +95,165 @@ body .wrapper {
               color: #a3a3a3; }
             body .wrapper .header .header_primary .header_primary-language .header_primary-language-list .header_primary-language-list-item .header_primary-language-list-item-link-active {
               color: #000; }
+  body .wrapper .main {
+    grid-column: 1/13;
+    grid-row: auto; }
+    body .wrapper .main .main_sectionOne {
+      position: relative; }
+      body .wrapper .main .main_sectionOne .main_sectionOne-img-item {
+        width: 100%; }
+      body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-left-link-banner {
+        position: absolute;
+        top: 73%;
+        left: 23%;
+        display: flex;
+        align-items: center;
+        padding: 20px 90px;
+        background-color: #020a28; }
+        body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-left-link-banner .main_sectionOne-container-left-link-banner-itemA {
+          margin: 0;
+          padding: 0 20px 0 0;
+          font-family: bebasNeue;
+          font-size: 30px;
+          text-transform: uppercase;
+          color: #fff; }
+        body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-left-link-banner .main_sectionOne-container-left-link-banner-itemB {
+          font-size: 20px;
+          color: #fff; }
+      body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right {
+        position: absolute;
+        left: 60%;
+        top: 6%;
+        text-align: center; }
+        body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right .main_sectionOne-container-right-versesGroupA-itemOne {
+          display: inline-block;
+          position: relative;
+          margin: 0;
+          padding: 0 15px;
+          font-family: futuraBoldItalic;
+          font-size: 70px;
+          color: black;
+          text-transform: uppercase;
+          background: black;
+          transform: rotate(2deg); }
+          body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right .main_sectionOne-container-right-versesGroupA-itemOne::before {
+            content: attr(data-text);
+            position: absolute;
+            left: 0;
+            right: 0;
+            padding: 0 7.5px;
+            color: #fff;
+            transform: rotate(-2deg);
+            top: 0; }
+        body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right .main_sectionOne-container-right-versesGroupA-itemTwo {
+          display: inline-block;
+          position: relative;
+          margin: 0;
+          padding: 0 15px;
+          font-family: futuraBoldItalic;
+          font-size: 70px;
+          color: black;
+          text-transform: uppercase;
+          background: black;
+          transform: rotate(2deg);
+          top: -17px; }
+          body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right .main_sectionOne-container-right-versesGroupA-itemTwo::before {
+            content: attr(data-text);
+            position: absolute;
+            left: 0;
+            right: 0;
+            padding: 0 7.5px;
+            color: #fff;
+            transform: rotate(-2deg);
+            top: -10px; }
+        body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right .main_sectionOne-container-right-versesGroupA-itemThree {
+          display: inline-block;
+          position: relative;
+          margin: 0;
+          padding: 0 15px;
+          font-family: futuraBoldItalic;
+          font-size: 70px;
+          color: black;
+          text-transform: uppercase;
+          background: black;
+          transform: rotate(2deg);
+          top: -38px; }
+          body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right .main_sectionOne-container-right-versesGroupA-itemThree::before {
+            content: attr(data-text);
+            position: absolute;
+            left: 0;
+            right: 0;
+            padding: 0 7.5px;
+            color: #fff;
+            transform: rotate(-2deg);
+            top: -15px; }
+        body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right .main_sectionOne-container-right-versesGroupB-itemOne {
+          display: inline-block;
+          position: relative;
+          margin: 0;
+          padding: 0 15px;
+          font-family: futuraBoldItalic;
+          font-size: 70px;
+          color: black;
+          text-transform: uppercase;
+          background: black;
+          transform: rotate(2deg);
+          top: -40px; }
+          body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right .main_sectionOne-container-right-versesGroupB-itemOne::before {
+            content: attr(data-text);
+            position: absolute;
+            left: 0;
+            right: 0;
+            padding: 0 7.5px;
+            color: #fff;
+            transform: rotate(-2deg);
+            top: 5px; }
+        body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right .main_sectionOne-container-right-versesGroupB-itemTwo {
+          display: inline-block;
+          position: relative;
+          margin: 0;
+          padding: 0 15px;
+          font-family: futuraBoldItalic;
+          font-size: 70px;
+          color: black;
+          text-transform: uppercase;
+          background: black;
+          transform: rotate(2deg);
+          top: -60px; }
+          body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right .main_sectionOne-container-right-versesGroupB-itemTwo::before {
+            content: attr(data-text);
+            position: absolute;
+            left: 0;
+            right: 0;
+            padding: 0 7.5px;
+            color: #fff;
+            transform: rotate(-2deg);
+            top: 0; }
+        body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right .main_sectionOne-container-right-versesGroupB-itemThree {
+          display: inline-block;
+          position: relative;
+          margin: 0;
+          padding: 0 15px;
+          font-family: futuraBoldItalic;
+          font-size: 70px;
+          color: black;
+          text-transform: uppercase;
+          background: black;
+          transform: rotate(2deg);
+          top: -77px; }
+          body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right .main_sectionOne-container-right-versesGroupB-itemThree::before {
+            content: attr(data-text);
+            position: absolute;
+            left: 0;
+            right: 0;
+            padding: 0 7.5px;
+            color: #fff;
+            transform: rotate(-2deg);
+            top: -5px; }
+        body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right .main_sectionOne-container-right-img {
+          position: absolute;
+          top: 83%;
+          right: 15%;
+          width: 100%; }
 
 /*# sourceMappingURL=main.css.map */

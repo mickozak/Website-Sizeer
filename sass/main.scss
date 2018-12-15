@@ -1,4 +1,5 @@
 @import "fonts";
+@import "mixins";
 
 body{
   .wrapper{
@@ -100,5 +101,100 @@ body{
         }
       }
     }
+    .main{
+      grid-column: 1/13;
+      grid-row: auto;
+      .main_sectionOne{
+        position: relative;
+          .main_sectionOne-img-item{
+            width: 100%;
+          }
+        .main_sectionOne-container{
+          .main_sectionOne-container-left-link-banner{
+            position: absolute;
+            top: 73%;
+            left: 23%;
+            display: flex;
+            align-items: center;
+            padding: 20px 90px;
+            background-color: #020a28;
+            .main_sectionOne-container-left-link-banner-itemA{
+              margin: 0;
+              padding: 0 20px 0 0;
+              font-family: bebasNeue;
+              font-size: 30px;
+              text-transform: uppercase;
+              color: #fff;
+            }
+            .main_sectionOne-container-left-link-banner-itemB{
+              font-size: 20px;
+              color: #fff;
+            }
+          }
+          .main_sectionOne-container-right{
+            position: absolute;
+            left: 60%;
+            top: 6%;
+            text-align: center;
+            .main_sectionOne-container-right-versesGroupA-itemOne{
+              @include verses;
+              &::before {
+                @include versesBefore;
+                top: 0;
+              }
+            }
+            .main_sectionOne-container-right-versesGroupA-itemTwo{
+              @include verses;
+              top: -17px;
+              &::before {
+                @include versesBefore;
+                top: -10px;
+              }
+            }
+            .main_sectionOne-container-right-versesGroupA-itemThree{
+              @include verses;
+              top: -38px;
+              &::before {
+                @include versesBefore;
+                top: -15px;
+              }
+            }
+            .main_sectionOne-container-right-versesGroupB-itemOne{
+              @include verses;
+              top: -40px;
+              &::before {
+                @include versesBefore;
+                top: 5px;
+              }
+            }
+            .main_sectionOne-container-right-versesGroupB-itemTwo{
+              @include verses;
+              top: -60px;
+              &::before {
+                @include versesBefore;
+                top: 0;
+              }
+            }
+            .main_sectionOne-container-right-versesGroupB-itemThree{
+              @include verses;
+              top: -77px;
+              &::before {
+                @include versesBefore;
+                top: -5px;
+              }
+            }
+            .main_sectionOne-container-right-img{
+              position: absolute;
+              top: 83%;
+              right: 15%;
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
   }
 }
+
+
+

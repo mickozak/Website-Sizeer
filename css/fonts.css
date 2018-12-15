@@ -1,0 +1,20 @@
+@font-face {
+  font-family: openSansRegular;
+  src: url("../fonts/OpenSans-Regular.ttf"); }
+@font-face {
+  font-family: openSansSemiBold;
+  src: url("../fonts/OpenSans-SemiBold.ttf"); }
+@font-face {
+  font-family: openSansExtraBold;
+  src: url("../fonts/OpenSans-ExtraBold.ttf"); }
+@font-face {
+  font-family: openSansCondensedBold;
+  src: url("../fonts/OpenSans-CondBold.ttf"); }
+@font-face {
+  font-family: futuraBoldItalic;
+  src: url("../fonts/FuturaBoldItalic.ttf"); }
+@font-face {
+  font-family: bebasNeue;
+  src: url("../fonts/BebasNeue-Regular.ttf"); }
+
+/*# sourceMappingURL=fonts.css.map */
