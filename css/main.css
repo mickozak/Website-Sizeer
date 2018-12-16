@@ -100,7 +100,7 @@ body .wrapper {
     grid-row: auto;
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: repeat(3, 1fr); }
+    grid-template-rows: repeat(5, 1fr); }
     body .wrapper .main .main_sectionOne {
       position: relative; }
       body .wrapper .main .main_sectionOne .main_sectionOne-background .main_sectionOne-background-item {
@@ -134,7 +134,7 @@ body .wrapper {
           margin: 0;
           padding: 0 15px;
           font-family: futuraBoldItalic;
-          font-size: 70px;
+          font-size: 50px;
           color: black;
           text-transform: uppercase;
           background: black;
@@ -161,7 +161,7 @@ body .wrapper {
           margin: 0;
           padding: 0 15px;
           font-family: futuraBoldItalic;
-          font-size: 70px;
+          font-size: 50px;
           color: black;
           text-transform: uppercase;
           background: black;
@@ -189,7 +189,7 @@ body .wrapper {
           margin: 0;
           padding: 0 15px;
           font-family: futuraBoldItalic;
-          font-size: 70px;
+          font-size: 50px;
           color: black;
           text-transform: uppercase;
           background: black;
@@ -217,7 +217,7 @@ body .wrapper {
           margin: 0;
           padding: 0 15px;
           font-family: futuraBoldItalic;
-          font-size: 70px;
+          font-size: 50px;
           color: black;
           text-transform: uppercase;
           background: black;
@@ -245,7 +245,7 @@ body .wrapper {
           margin: 0;
           padding: 0 15px;
           font-family: futuraBoldItalic;
-          font-size: 70px;
+          font-size: 50px;
           color: black;
           text-transform: uppercase;
           background: black;
@@ -273,7 +273,7 @@ body .wrapper {
           margin: 0;
           padding: 0 15px;
           font-family: futuraBoldItalic;
-          font-size: 70px;
+          font-size: 50px;
           color: black;
           text-transform: uppercase;
           background: black;
@@ -297,7 +297,7 @@ body .wrapper {
                 transform: rotate(-1deg); } }
         body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right .main_sectionOne-container-right-img {
           position: absolute;
-          top: 81.5%;
+          top: 76%;
           right: 15%;
           width: 100%; }
     body .wrapper .main .main_lastEdition {
@@ -425,5 +425,55 @@ body .wrapper {
           font-family: futuraBoldItalic; }
           body .wrapper .main .main_sectionTwo .main_sectionTwo-content .main_sectionTwo-content-item .main_sectionTwo-content-item-word {
             color: #ff296b; }
+    body .wrapper .main .main_sectionThree {
+      position: relative; }
+      body .wrapper .main .main_sectionThree .main_sectionThree-background-item {
+        position: absolute;
+        margin-top: -15px;
+        width: 100%; }
+        body .wrapper .main .main_sectionThree .main_sectionThree-background-item .main_sectionThree-background-item {
+          position: absolute;
+          margin-top: -10px;
+          width: 100%; }
+      body .wrapper .main .main_sectionThree .main_sectionThree-content {
+        position: absolute;
+        top: 5%;
+        left: 55%;
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center; }
+        body .wrapper .main .main_sectionThree .main_sectionThree-content .main_sectionThree-content-itemOne {
+          text-transform: uppercase;
+          color: #fff;
+          font-family: futuraBoldItalic;
+          font-size: 35px; }
+          body .wrapper .main .main_sectionThree .main_sectionThree-content .main_sectionThree-content-itemOne .main_sectionThree-content-itemOne-word {
+            color: #ff2a69;
+            font-size: 45px; }
+        body .wrapper .main .main_sectionThree .main_sectionThree-content .main_sectionThree-content-button {
+          display: flex;
+          justify-content: center;
+          padding: 20px;
+          width: 200px;
+          background-color: #ff2a69; }
+          body .wrapper .main .main_sectionThree .main_sectionThree-content .main_sectionThree-content-button .main_sectionThree-content-button-item {
+            margin: 0;
+            padding: 0;
+            font-family: bebasNeue;
+            color: #fff;
+            font-size: 20px;
+            text-transform: uppercase; }
+          body .wrapper .main .main_sectionThree .main_sectionThree-content .main_sectionThree-content-button .main_sectionThree-content-button-item-icon {
+            display: flex;
+            align-self: center;
+            padding-left: 10px;
+            color: #fff; }
+        body .wrapper .main .main_sectionThree .main_sectionThree-content .main_sectionThree-content-itemTwo {
+          font-family: futuraBoldItalic;
+          font-size: 25px;
+          color: #fff;
+          text-transform: uppercase; }
 
 /*# sourceMappingURL=main.css.map */
