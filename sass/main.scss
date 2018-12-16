@@ -106,7 +106,7 @@ body{
       grid-row: auto;
       display: grid;
       grid-template-columns: auto;
-      grid-template-rows: repeat(5, 1fr);
+      grid-template-rows: repeat(7, 1fr);
       .main_sectionOne{
         position: relative;
         .main_sectionOne-background {
@@ -398,28 +398,15 @@ body{
             }
           }
           .main_sectionThree-content-button{
-            display: flex;
-            justify-content: center;
-            padding: 20px;
-            width: 200px;
-            background-color: #ff2a69;
+            @include button;
             .main_sectionThree-content-button-item{
-              margin: 0;
-              padding: 0;
-              font-family: bebasNeue;
-              color: #fff;
-              font-size: 20px;
-              text-transform: uppercase;
+              @include buttonItem;
             }
             .main_sectionThree-content-button-item-icon{
-              display: flex;
-              align-self: center;
-              padding-left: 10px;
-              color: #fff;
+              @include buttonIcon;
             }
           }
           .main_sectionThree-content-itemTwo{
-
             font-family: futuraBoldItalic;
             font-size: 25px;
             color: #fff;
@@ -485,7 +472,6 @@ body{
             flex-direction: column;
             align-items: center;
             text-align: center;
-
             .main_sectionFive-container-content-item {
               text-transform: uppercase;
               color: #fff;
@@ -496,7 +482,66 @@ body{
                 font-size: 45px;
               }
             }
+          }
+        }
+      }
+      .main_sectionSix{
+        .main_sectionSix-container{
+          position: relative;
+          .main-sectionSix-container-background-item{
+            width: 100%;
+            margin-top: -30px;
+            position: relative;
+          }
+          .main_sectionSix-container-content{
+            position: absolute;
+            width: 600px;
+            top: 10%;
+            left: 20%;
+            background: rgba(0, 0, 0, 0.5);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            .main_sectionSix-container-content-title{
+            text-transform: uppercase;
+            color: white;
+            font-family: futuraBoldItalic;
+              font-size: 25px;
+            }
+            .main_sectionSix-container-content-button{
+              @include button;
+              .main_sectionSix-container-content-button-item{
+                @include buttonItem;
+              }
+              .main_sectionSix-container-content-button-icon{
+                @include buttonIcon;
+              }
+            }
+            .main_sectionSix-container-content-stickery-item{
+              width: 20vw;
+              padding: 15px;
+            }
+            .main_sectionSix-container-content-itemOne{
+              text-transform: uppercase;
+              color: white;
+              font-family: futuraBoldItalic;
+              font-size: 25px;
+              .main_sectionSix-container-content-itemOne-word{
+                color: #ff0070;
+              }
 
+            }
+
+          }
+          .main-sectionSix-container-glasses{
+            position: absolute;
+            top: 25%;
+            left: 55%;
+            .main-sectionSix-container-glasses-vector{
+              width: 250px;
+              transform: rotate(-10deg);
+            }
           }
         }
       }
