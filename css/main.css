@@ -504,5 +504,32 @@ body .wrapper {
           font-size: 35px;
           color: #fff;
           text-transform: uppercase; }
+    body .wrapper .main .main_sectionFive .main_sectionFive-container {
+      position: relative; }
+      body .wrapper .main .main_sectionFive .main_sectionFive-container .main_sectionFive-container-background-item {
+        margin-top: -25px;
+        position: absolute;
+        width: 100%; }
+        body .wrapper .main .main_sectionFive .main_sectionFive-container .main_sectionFive-container-background-item .main_sectionFive-container-background-item {
+          position: absolute;
+          margin-top: -10px;
+          width: 100%; }
+      body .wrapper .main .main_sectionFive .main_sectionFive-container .main_sectionFive-container-content {
+        position: absolute;
+        top: 5%;
+        left: 60%;
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center; }
+        body .wrapper .main .main_sectionFive .main_sectionFive-container .main_sectionFive-container-content .main_sectionFive-container-content-item {
+          text-transform: uppercase;
+          color: #fff;
+          font-family: futuraBoldItalic;
+          font-size: 35px; }
+          body .wrapper .main .main_sectionFive .main_sectionFive-container .main_sectionFive-container-content .main_sectionFive-container-content-item .main_sectionFive-container-content-item-word {
+            color: #ff0070;
+            font-size: 45px; }
 
 /*# sourceMappingURL=main.css.map */
