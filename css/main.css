@@ -100,7 +100,7 @@ body .wrapper {
     grid-row: auto; }
     body .wrapper .main .main_sectionOne {
       position: relative; }
-      body .wrapper .main .main_sectionOne .main_sectionOne-img-item {
+      body .wrapper .main .main_sectionOne .main_sectionOne-background .main_sectionOne-background-item {
         width: 100%; }
       body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-left-link-banner {
         position: absolute;
@@ -136,6 +136,10 @@ body .wrapper {
           text-transform: uppercase;
           background: black;
           transform: rotate(2deg); }
+          @media screen and (max-width: 800px) {
+            body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right .main_sectionOne-container-right-versesGroupA-itemOne {
+              font-size: 33px;
+              transform: rotate(1deg); } }
           body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right .main_sectionOne-container-right-versesGroupA-itemOne::before {
             content: attr(data-text);
             position: absolute;
@@ -145,6 +149,9 @@ body .wrapper {
             color: #fff;
             transform: rotate(-2deg);
             top: 0; }
+            @media screen and (max-width: 800px) {
+              body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right .main_sectionOne-container-right-versesGroupA-itemOne::before {
+                transform: rotate(-1deg); } }
         body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right .main_sectionOne-container-right-versesGroupA-itemTwo {
           display: inline-block;
           position: relative;
@@ -157,6 +164,10 @@ body .wrapper {
           background: black;
           transform: rotate(2deg);
           top: -17px; }
+          @media screen and (max-width: 800px) {
+            body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right .main_sectionOne-container-right-versesGroupA-itemTwo {
+              font-size: 33px;
+              transform: rotate(1deg); } }
           body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right .main_sectionOne-container-right-versesGroupA-itemTwo::before {
             content: attr(data-text);
             position: absolute;
@@ -166,6 +177,9 @@ body .wrapper {
             color: #fff;
             transform: rotate(-2deg);
             top: -10px; }
+            @media screen and (max-width: 800px) {
+              body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right .main_sectionOne-container-right-versesGroupA-itemTwo::before {
+                transform: rotate(-1deg); } }
         body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right .main_sectionOne-container-right-versesGroupA-itemThree {
           display: inline-block;
           position: relative;
@@ -178,6 +192,10 @@ body .wrapper {
           background: black;
           transform: rotate(2deg);
           top: -38px; }
+          @media screen and (max-width: 800px) {
+            body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right .main_sectionOne-container-right-versesGroupA-itemThree {
+              font-size: 33px;
+              transform: rotate(1deg); } }
           body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right .main_sectionOne-container-right-versesGroupA-itemThree::before {
             content: attr(data-text);
             position: absolute;
@@ -187,6 +205,9 @@ body .wrapper {
             color: #fff;
             transform: rotate(-2deg);
             top: -15px; }
+            @media screen and (max-width: 800px) {
+              body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right .main_sectionOne-container-right-versesGroupA-itemThree::before {
+                transform: rotate(-1deg); } }
         body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right .main_sectionOne-container-right-versesGroupB-itemOne {
           display: inline-block;
           position: relative;
@@ -199,6 +220,10 @@ body .wrapper {
           background: black;
           transform: rotate(2deg);
           top: -40px; }
+          @media screen and (max-width: 800px) {
+            body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right .main_sectionOne-container-right-versesGroupB-itemOne {
+              font-size: 33px;
+              transform: rotate(1deg); } }
           body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right .main_sectionOne-container-right-versesGroupB-itemOne::before {
             content: attr(data-text);
             position: absolute;
@@ -208,6 +233,9 @@ body .wrapper {
             color: #fff;
             transform: rotate(-2deg);
             top: 5px; }
+            @media screen and (max-width: 800px) {
+              body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right .main_sectionOne-container-right-versesGroupB-itemOne::before {
+                transform: rotate(-1deg); } }
         body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right .main_sectionOne-container-right-versesGroupB-itemTwo {
           display: inline-block;
           position: relative;
@@ -220,6 +248,10 @@ body .wrapper {
           background: black;
           transform: rotate(2deg);
           top: -60px; }
+          @media screen and (max-width: 800px) {
+            body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right .main_sectionOne-container-right-versesGroupB-itemTwo {
+              font-size: 33px;
+              transform: rotate(1deg); } }
           body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right .main_sectionOne-container-right-versesGroupB-itemTwo::before {
             content: attr(data-text);
             position: absolute;
@@ -229,6 +261,9 @@ body .wrapper {
             color: #fff;
             transform: rotate(-2deg);
             top: 0; }
+            @media screen and (max-width: 800px) {
+              body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right .main_sectionOne-container-right-versesGroupB-itemTwo::before {
+                transform: rotate(-1deg); } }
         body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right .main_sectionOne-container-right-versesGroupB-itemThree {
           display: inline-block;
           position: relative;
@@ -241,6 +276,10 @@ body .wrapper {
           background: black;
           transform: rotate(2deg);
           top: -77px; }
+          @media screen and (max-width: 800px) {
+            body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right .main_sectionOne-container-right-versesGroupB-itemThree {
+              font-size: 33px;
+              transform: rotate(1deg); } }
           body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right .main_sectionOne-container-right-versesGroupB-itemThree::before {
             content: attr(data-text);
             position: absolute;
@@ -250,10 +289,119 @@ body .wrapper {
             color: #fff;
             transform: rotate(-2deg);
             top: -5px; }
+            @media screen and (max-width: 800px) {
+              body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right .main_sectionOne-container-right-versesGroupB-itemThree::before {
+                transform: rotate(-1deg); } }
         body .wrapper .main .main_sectionOne .main_sectionOne-container .main_sectionOne-container-right .main_sectionOne-container-right-img {
           position: absolute;
-          top: 83%;
+          top: 81.5%;
           right: 15%;
           width: 100%; }
+    body .wrapper .main .main_lastEdition {
+      position: relative; }
+      body .wrapper .main .main_lastEdition .main_lastEdition-background-item {
+        position: absolute;
+        margin-top: -5px;
+        width: 100%;
+        z-index: -999; }
+      body .wrapper .main .main_lastEdition .main_lastEdition-container {
+        position: absolute;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: auto;
+        grid-column-gap: 15px;
+        margin-top: 1%; }
+        body .wrapper .main .main_lastEdition .main_lastEdition-container .main_lastEdition-container-2015 {
+          grid-column: 3/5;
+          grid-row: auto;
+          position: relative; }
+          body .wrapper .main .main_lastEdition .main_lastEdition-container .main_lastEdition-container-2015 .main_lastEdition-container-2015-item {
+            width: 100%; }
+          body .wrapper .main .main_lastEdition .main_lastEdition-container .main_lastEdition-container-2015 .main_lastEdition-container-2015-item-four {
+            position: absolute;
+            top: 86%;
+            left: -10%; }
+            body .wrapper .main .main_lastEdition .main_lastEdition-container .main_lastEdition-container-2015 .main_lastEdition-container-2015-item-four .main_lastEdition-container-2015-item-four-verse {
+              display: inline-block;
+              position: relative;
+              top: 85%;
+              left: 110%;
+              margin: 0;
+              padding: 0 20px;
+              font-family: futuraBoldItalic;
+              font-size: 35px;
+              color: black;
+              text-transform: uppercase;
+              background: black;
+              transform: rotate(2deg);
+              text-align: right;
+              z-index: -9; }
+              body .wrapper .main .main_lastEdition .main_lastEdition-container .main_lastEdition-container-2015 .main_lastEdition-container-2015-item-four .main_lastEdition-container-2015-item-four-verse::before {
+                content: attr(data-text);
+                position: absolute;
+                left: 0;
+                right: 0;
+                padding: 0 7.5px;
+                color: #fff;
+                transform: rotate(-2deg); }
+        body .wrapper .main .main_lastEdition .main_lastEdition-container .main_lastEdition-container-sectionOne {
+          grid-column: 5/9;
+          grid-row: auto;
+          text-align: center; }
+          body .wrapper .main .main_lastEdition .main_lastEdition-container .main_lastEdition-container-sectionOne .main_lastEdition-container-sectionOne-item {
+            margin: 0;
+            font-family: futuraBoldItalic;
+            font-size: 30px;
+            text-transform: uppercase;
+            color: #fff; }
+          body .wrapper .main .main_lastEdition .main_lastEdition-container .main_lastEdition-container-sectionOne .main_lastEdition-container-sectionOne-item-one {
+            margin-bottom: 20px; }
+          body .wrapper .main .main_lastEdition .main_lastEdition-container .main_lastEdition-container-sectionOne .main_lastEdition-container-sectionOne-item-two {
+            width: 100%; }
+          body .wrapper .main .main_lastEdition .main_lastEdition-container .main_lastEdition-container-sectionOne .main_lastEdition-container-sectionOne-item-three {
+            margin-top: 20px; }
+        body .wrapper .main .main_lastEdition .main_lastEdition-container .main_lastEdition-container-2016 {
+          grid-column: 9/11;
+          grid-row: auto;
+          position: relative; }
+          body .wrapper .main .main_lastEdition .main_lastEdition-container .main_lastEdition-container-2016 .main_lastEdition-container-2016-item {
+            width: 100%; }
+          body .wrapper .main .main_lastEdition .main_lastEdition-container .main_lastEdition-container-2016 .main_lastEdition-container-2016-item-one {
+            position: absolute; }
+          body .wrapper .main .main_lastEdition .main_lastEdition-container .main_lastEdition-container-2016 .main_lastEdition-container-2016-item-two {
+            position: absolute;
+            top: 33%;
+            left: 5%; }
+          body .wrapper .main .main_lastEdition .main_lastEdition-container .main_lastEdition-container-2016 .main_lastEdition-container-2016-item-three {
+            position: absolute;
+            top: 65%;
+            left: -2%;
+            z-index: 99999; }
+          body .wrapper .main .main_lastEdition .main_lastEdition-container .main_lastEdition-container-2016 .main_lastEdition-container-2016-item-four {
+            position: absolute;
+            top: 85%;
+            left: -5%; }
+            body .wrapper .main .main_lastEdition .main_lastEdition-container .main_lastEdition-container-2016 .main_lastEdition-container-2016-item-four .main_lastEdition-container-2016-item-four-verse {
+              display: inline-block;
+              position: relative;
+              top: 85%;
+              left: -85%;
+              margin: 0;
+              padding: 0 20px;
+              font-family: futuraBoldItalic;
+              font-size: 35px;
+              color: black;
+              text-transform: uppercase;
+              background: black;
+              transform: rotate(2deg);
+              text-align: left; }
+              body .wrapper .main .main_lastEdition .main_lastEdition-container .main_lastEdition-container-2016 .main_lastEdition-container-2016-item-four .main_lastEdition-container-2016-item-four-verse::before {
+                content: attr(data-text);
+                position: absolute;
+                left: 0;
+                right: 0;
+                padding: 0 7.5px;
+                color: #fff;
+                transform: rotate(-2deg); }
 
 /*# sourceMappingURL=main.css.map */
