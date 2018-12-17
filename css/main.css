@@ -587,5 +587,93 @@ body .wrapper {
         body .wrapper .main .main_sectionSix .main_sectionSix-container .main-sectionSix-container-glasses .main-sectionSix-container-glasses-vector {
           width: 250px;
           transform: rotate(-10deg); }
+  body .wrapper .footer {
+    grid-column: 1/13;
+    margin-top: -40px; }
+    body .wrapper .footer .footer_container {
+      background: #191919; }
+      body .wrapper .footer .footer_container .footer_container-top {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 20% 1fr; }
+        body .wrapper .footer .footer_container .footer_container-top .footer_container-top-company {
+          grid-column: 3/5;
+          grid-row: 1/2;
+          font-family: openSansCondensedBold;
+          color: #f9f5f5;
+          text-transform: uppercase; }
+        body .wrapper .footer .footer_container .footer_container-top .footer_container-top-archives {
+          grid-column: 5/7;
+          grid-row: 1/2;
+          font-family: openSansCondensedBold;
+          color: #f9f5f5;
+          text-transform: uppercase; }
+        body .wrapper .footer .footer_container .footer_container-top .footer_container-top-find {
+          grid-column: 7/12;
+          grid-row: 1/2;
+          font-family: openSansCondensedBold;
+          color: #f9f5f5;
+          text-transform: uppercase; }
+        body .wrapper .footer .footer_container .footer_container-top .footer_container-top-content-first {
+          grid-column: 3/5;
+          list-style: none;
+          padding: 0; }
+          body .wrapper .footer .footer_container .footer_container-top .footer_container-top-content-first .footer_container-top-content-list-item-link {
+            color: #f9f5f5;
+            text-decoration: none;
+            font-family: openSansCondensedBold;
+            font-size: 12px; }
+        body .wrapper .footer .footer_container .footer_container-top .footer_container-top-content-second {
+          grid-column: 5/7;
+          list-style: none;
+          padding: 0; }
+          body .wrapper .footer .footer_container .footer_container-top .footer_container-top-content-second .footer_container-top-content-list-item-link {
+            color: #f9f5f5;
+            text-decoration: none;
+            font-family: openSansCondensedBold;
+            font-size: 12px; }
+        body .wrapper .footer .footer_container .footer_container-top .footer_container-top-content-third {
+          grid-column: 7/8;
+          list-style: none;
+          padding: 0; }
+          body .wrapper .footer .footer_container .footer_container-top .footer_container-top-content-third .footer_container-top-content-list-item-link {
+            color: #f9f5f5;
+            text-decoration: none;
+            font-family: openSansCondensedBold;
+            font-size: 12px; }
+        body .wrapper .footer .footer_container .footer_container-top .footer_container-top-content-fourth {
+          grid-column: 8/9;
+          list-style: none;
+          padding: 0; }
+          body .wrapper .footer .footer_container .footer_container-top .footer_container-top-content-fourth .footer_container-top-content-list-item-link {
+            color: #f9f5f5;
+            text-decoration: none;
+            font-family: openSansCondensedBold;
+            font-size: 12px; }
+        body .wrapper .footer .footer_container .footer_container-top .footer_container-top-content-fifth {
+          grid-column: 9/10;
+          list-style: none;
+          padding: 0; }
+          body .wrapper .footer .footer_container .footer_container-top .footer_container-top-content-fifth .footer_container-top-content-list-item-link {
+            color: #f9f5f5;
+            text-decoration: none;
+            font-family: openSansCondensedBold;
+            font-size: 12px; }
+        body .wrapper .footer .footer_container .footer_container-top .footer_container-top-content-sixth {
+          grid-column: 10/11;
+          list-style: none;
+          padding: 0; }
+          body .wrapper .footer .footer_container .footer_container-top .footer_container-top-content-sixth .footer_container-top-content-list-item-link {
+            color: #f9f5f5;
+            text-decoration: none;
+            font-family: openSansCondensedBold;
+            font-size: 12px; }
+      body .wrapper .footer .footer_container .footer_container-bottom {
+        display: flex;
+        justify-content: center;
+        border-top: 1px solid #202020; }
+        body .wrapper .footer .footer_container .footer_container-bottom .footer_container-bottom-item {
+          font-family: openSansCondensedBold;
+          color: #bfc1c3; }
 
 /*# sourceMappingURL=main.css.map */

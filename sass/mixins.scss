@@ -55,3 +55,23 @@
   padding-left: 10px;
   color: #fff;
 }
+
+//FOOTER
+
+@mixin footerTitle{
+  font-family: openSansCondensedBold;
+  color: #f9f5f5;
+  text-transform: uppercase;
+}
+
+@mixin footerList{
+  list-style: none;
+  padding: 0;
+}
+
+@mixin footerLink{
+  color: #f9f5f5;
+  text-decoration: none;
+  font-family: openSansCondensedBold;
+  font-size: 12px;
+}

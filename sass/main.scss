@@ -546,6 +546,84 @@ body{
         }
       }
     }
+    .footer{
+      grid-column: 1/13;
+      margin-top: -40px;
+      .footer_container{
+        background: #191919;
+        .footer_container-top{
+          display: grid;
+          grid-template-columns: repeat(12, 1fr);
+          grid-template-rows: 20% 1fr;
+          .footer_container-top-company{
+            grid-column: 3/5;
+            grid-row: 1/2;
+            @include footerTitle;
+          }
+          .footer_container-top-archives{
+            grid-column: 5/7;
+            grid-row: 1/2;
+            @include footerTitle;
+          }
+          .footer_container-top-find{
+            grid-column: 7/12;
+            grid-row: 1/2;
+            @include footerTitle;
+          }
+          .footer_container-top-content-first{
+            grid-column: 3/5;
+            @include footerList;
+            .footer_container-top-content-list-item-link{
+              @include footerLink
+            }
+          }
+          .footer_container-top-content-second{
+            grid-column: 5/7;
+            @include footerList;
+            .footer_container-top-content-list-item-link{
+              @include footerLink
+            }
+          }
+          .footer_container-top-content-third{
+            grid-column: 7/8;
+            @include footerList;
+            .footer_container-top-content-list-item-link{
+              @include footerLink
+            }
+          }
+          .footer_container-top-content-fourth{
+            grid-column: 8/9;
+            @include footerList;
+            .footer_container-top-content-list-item-link{
+              @include footerLink
+            }
+          }
+          .footer_container-top-content-fifth{
+            grid-column: 9/10;
+            @include footerList;
+            .footer_container-top-content-list-item-link{
+              @include footerLink;
+            }
+          }
+          .footer_container-top-content-sixth{
+            grid-column: 10/11;
+            @include footerList;
+            .footer_container-top-content-list-item-link{
+              @include footerLink;
+            }
+          }
+        }
+        .footer_container-bottom{
+          display: flex;
+          justify-content: center;
+          border-top: 1px solid #202020;
+          .footer_container-bottom-item{
+            font-family: openSansCondensedBold;
+            color: #bfc1c3;
+          }
+        }
+      }
+    }
   }
 }
 
