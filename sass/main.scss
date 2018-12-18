@@ -533,7 +533,6 @@ body{
   display: grid;
   grid-template-columns: repeat(5,1fr);
   grid-template-rows: auto;
-  margin: -5px;
   @media screen and (max-width: 600px){
     grid-template-columns: repeat(12,1fr);
   }
@@ -628,7 +627,6 @@ body{
   display: grid;
   grid-template-columns: repeat(12,1fr);
   grid-template-rows: auto;
-  margin: -5px;
   .main_sectionFour-container-content{
     grid-column: 2/8;
     grid-row: auto;
@@ -682,7 +680,6 @@ body{
   display: grid;
   grid-template-columns: repeat(12,1fr);
   grid-template-rows: auto;
-  margin: -5px;
   text-align: center;
   .main_sectionFive-container-content{
     grid-column: 8/12;
@@ -730,7 +727,6 @@ body{
   display: grid;
   grid-template-columns: repeat(12,1fr);
   grid-template-rows: auto;
-  margin: -5px;
   text-align: center;
   justify-items: center;
   @media screen and(max-width: 1500px) and (min-width: 1200px){
