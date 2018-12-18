@@ -9,7 +9,6 @@
     <!--ICONS-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <!--STYLE-->
-
     <link rel="stylesheet" href="css/normalize.css" type="text/css">
     <link rel="stylesheet" href="css/main.css" type="text/css">
 </head>
@@ -43,7 +42,8 @@
         <!--HEADER PRIMARY START-->
         <div class="header_primary">
             <div class="header_primary-logo">
-                <a class="header_primary-logo-link" href="#"><img class="header_primary-logo-link-file" src="images/logo.jpg"></a>
+                <a class="header_primary-logo-link" href="#"><img class="header_primary-logo-link-file" src="images/logo.jpg" alt="logo"/></a>
+                <a class="header_primary-logo-mobile"><img class="header_primary-logo-mobile-file" src="images/menu.svg" alt="menu"/></a>
             </div>
             <div class="header_primary-menu">
                 <ul class="header_primary-menu-list">
@@ -62,6 +62,16 @@
                     <li class="header_primary-language-list-item"><a class="header_primary-language-list-item-link" href="#">en</a></li>
                 </ul>
             </div>
+
+            <div class="header_primary-mobile">
+                <ul class="header_primary-mobile-list">
+                    <li class="header_primary-mobile-list-item"><a class="header_primary-mobile-list-item-link" href="#">sizeer club</a></li>
+                    <li class="header_primary-mobile-list-item"><a class="header_primary-mobile-list-item-link" href="#">si magazyn</a></li>
+                    <li class="header_primary-mobile-list-item"><a class="header_primary-mobile-list-item-link" href="#">sizeer music</a></li>
+                    <li class="header_primary-mobile-list-item"><a class="header_primary-mobile-list-item-link" href="#">sklep on-line</a></li>
+                    <li class="header_primary-mobile-list-item"><a class="header_primary-mobile-list-item-link" href="#">pl <span class="header_primary-mobile-list-item-link-inactive">de sk cz en</span></a></li>
+                </ul>
+            </div>
         </div>
         <!--HEADER PRIMARY END-->
 
@@ -72,66 +82,52 @@
     <main class="main">
 
         <!--SECTION ONE START-->
-        <div class="main_sectionOne">
-            <div class="main_sectionOne-background">
-
-               <img class=" main_sectionOne-background-item" src="images/1/1-background.jpg" alt="poznaj kicksa"/>
-
+        <div class="main_sectionOne-container">
+            <div class="main_sectionOne-container-button">
+                <a class="main_sectionOne-container-button-link" href="#">
+                    <div class="main_sectionOne-container-button-link-item">
+                        <p class="main_sectionOne-container-button-link-item-a">poznaj kicksa</p>
+                        <i class="fas fa-chevron-right main_sectionOne-container-button-link-item-b"></i>
+                    </div>
+                </a>
             </div>
-            <div class="main_sectionOne-container">
-                <div class="main_sectionOne-container-left">
-                    <a class="main_sectionOne-container-left-link" href="#">
-                        <div class="main_sectionOne-container-left-link-banner">
-                            <p class="main_sectionOne-container-left-link-banner-itemA">poznaj kicksa</p>
-                            <i class="fas fa-chevron-right main_sectionOne-container-left-link-banner-itemB"></i>
-                        </div>
-                    </a>
-                </div>
-                <div class="main_sectionOne-container-right">
-                    <div class="main_sectionOne-container-right-versesGroupA">
-                        <p class="main_sectionOne-container-right-versesGroupA-itemOne" data-text="wyslij kicksa">wyslij kicksa<p>
-                        <p class="main_sectionOne-container-right-versesGroupA-itemTwo" data-text="na przygode">na przygode<p>
-                        <p class="main_sectionOne-container-right-versesGroupA-itemThree" data-text="zycia">życia<p>
-                    </div>
-                    <div class="main_sectionOne-container-right-verseGroupB">
-                        <p class="main_sectionOne-container-right-versesGroupB-itemOne" data-text="i wygraj">i wygraj<p>
-                        <p class="main_sectionOne-container-right-versesGroupB-itemTwo" data-text="7 dni imprezy">7 dni imprezy<p>
-                        <p class="main_sectionOne-container-right-versesGroupB-itemThree" data-text="na Malcie">na Malcie<p>
-                    </div>
-                    <img class="main_sectionOne-container-right-img" src="images/1/isleOfMalta.png" alt="isle of malta">
-                </div>
+            <div class="main_sectionOne-container-content">
+                <p class="main_sectionOne-container-content-itemOne" data-text="wyslij kicksa">wyslij kicksa<p>
+                <p class="main_sectionOne-container-content-itemTwo" data-text="na przygode">na przygode<p>
+                <p class="main_sectionOne-container-content-itemThree" data-text="zycia">życia<p>
+                <p class="main_sectionOne-container-content-itemFour" data-text="i wygraj">i wygraj<p>
+                <p class="main_sectionOne-container-content-itemFive" data-text="7 dni imprezy">7 dni imprezy<p>
+                <p class="main_sectionOne-container-content-itemSix" data-text="na Malcie">na Malcie<p>
+                <img class="main_sectionOne-container-content-itemSeven" src="images/1/isleOfMalta.png" alt="isle of malta">
             </div>
         </div>
+
         <!--SECTION ONE END-->
+
 
         <!--LAST EDITION START-->
 
-        <div class="main_lastEdition">
-            <div class="main_lastEdition-background">
-                <img class="main_lastEdition-background-item" src="images/lastedition/lastEditionBackground_02.jpg" alt="Last Edition">
+        <div class="main_lastEdition-container">
+            <div class="main_lastEdition-container-verse">
+                <a href="#" class="main_lastEdition-container-verse-item" data-text="< malta 2015">< malta 2015</a>
             </div>
-            <div class="main_lastEdition-container">
-                <div class="main_lastEdition-container-2015">
-                    <img class="main_lastEdition-container-2015-item main_lastEdition-container-2015-item-one" src="images/lastedition/malta2015/malta2015_a_03.png"/>
-                    <img class="main_lastEdition-container-2015-item main_lastEdition-container-2015-item-two" src="images/lastedition/malta2015/malta2015_a_04_03.png"/>
-                    <img class="main_lastEdition-container-2015-item main_lastEdition-container-2015-item-three" src="images/lastedition/malta2015/malta2015_a_05_03.png"/>
-                    <div class="main_lastEdition-container-2015-item-four">
-                        <p class="main_lastEdition-container-2015-item-four-verse" data-text="malta 2015">malta 2015</p>
-                    </div>
-                </div>
-                <div class="main_lastEdition-container-sectionOne">
-                    <p class="main_lastEdition-container-sectionOne-item main_lastEdition-container-sectionOne-item-one">edycja III</p>
-                    <img class="main_lastEdition-container-sectionOne-item-two" src="images/lastedition/edycjaiii/sectionOneBackground_03.png"/>
-                    <p class="main_lastEdition-container-sectionOne-item main_lastEdition-container-sectionOne-item-three">zobacz poprzednie edycje <br>w sizeerapp:</p>
-                </div>
-                <div class="main_lastEdition-container-2016">
-                    <img class="main_lastEdition-container-2016-item main_lastEdition-container-2016-item-one" src="images/lastedition/malta2016/malta2016_b_01_03.png">
-                    <img class="main_lastEdition-container-2016-item main_lastEdition-container-2016-item-two" src="images/lastedition/malta2016/malta2016_b_02_03.png">
-                    <img class="main_lastEdition-container-2016-item main_lastEdition-container-2016-item-three" src="images/lastedition/malta2016/malta2016_b_03_03.png">
-                    <div class="main_lastEdition-container-2016-item-four">
-                        <p class="main_lastEdition-container-2016-item-four-verse" data-text="malta 2016">malta 2016</p>
-                    </div>
-                    </div>
+            <div class="main_lastEdition-container-2015">
+                <img class="main_lastEdition-container-2015-item main_lastEdition-container-2015-item-one" src="images/lastedition/malta2015/malta2015_a_03.png" alt="malta 2015"/>
+                <img class="main_lastEdition-container-2015-item main_lastEdition-container-2015-item-two" src="images/lastedition/malta2015/malta2015_a_04_03.png" alt="malta 2015"/>
+                <img class="main_lastEdition-container-2015-item main_lastEdition-container-2015-item-three" src="images/lastedition/malta2015/malta2015_a_05_03.png" alt="malta 2015"/>
+            </div>
+            <div class="main_lastEdition-container-sectionOne">
+                <p class="main_lastEdition-container-sectionOne-item main_lastEdition-container-sectionOne-item-one">edycja III</p>
+                <img class="main_lastEdition-container-sectionOne-item-two" src="images/lastedition/edycjaiii/sectionOneBackground_03.png" alt="last edition"/>
+                <p class="main_lastEdition-container-sectionOne-item main_lastEdition-container-sectionOne-item-three">zobacz poprzednie edycje <br>w sizeerapp</p>
+            </div>
+            <div class="main_lastEdition-container-2016">
+                <img class="main_lastEdition-container-2016-item main_lastEdition-container-2016-item-one" src="images/lastedition/malta2016/malta2016_b_01_03.png" alt="malta 2016"/>
+                <img class="main_lastEdition-container-2016-item main_lastEdition-container-2016-item-two" src="images/lastedition/malta2016/malta2016_b_02_03.png" alt="malta 2016"/>
+                <img class="main_lastEdition-container-2016-item main_lastEdition-container-2016-item-three" src="images/lastedition/malta2016/malta2016_b_03_03.png" alt="malta 2016"/>
+            </div>
+            <div class="main_lastEdition-container-verseB">
+                <a href="#" class="main_lastEdition-container-verseB-item" data-text="malta 2016 >">malta 2016 ></a>
             </div>
         </div>
 
@@ -139,14 +135,11 @@
 
         <!--SECTION TWO START-->
 
-        <div class="main_sectionTwo">
-            <div class="main_sectionTwo-background">
-                <img class="main_sectionTwo-background-item" src="images/2/2-background_02.png" alt="Section Two">
-            </div>
-            <div class="main_sectionTwo-content">
-                <p class="main_sectionTwo-content-item">
+        <div class="main_sectionTwo-container">
+            <div class="main_sectionTwo-container-content">
+                <p class="main_sectionTwo-container-content-item">
                     Wyslij Kicksa na przygode zycia! Wyslij go w miejsca, o których nawet nie snil! Pozwol mu budowac jego wlasna historie.
-                    Kicks kocha czasoprzestrzen wiec nie ograniczaj sie i dostarcz mu wrazen na swoja <br>miare <span class="main_sectionTwo-content-item-word">#niemanudy.</span>
+                    Kicks kocha czasoprzestrzen wiec nie ograniczaj sie i dostarcz mu wrazen na swoja <br>miare <span class="main_sectionTwo-container-content-item-word">#niemanudy.</span>
                 </p>
             </div>
         </div>
@@ -154,10 +147,8 @@
         <!--SECTION TWO END-->
 
         <!--SECTION THREE START-->
-        <div class="main_sectionThree">
-            <div class="main_sectionThree-background">
-                <img class="main_sectionThree-background-item" src="images/3/3-background.png" alt="Section Two">
-            </div>
+
+        <div class="main_sectionThree-container">
             <div class="main_sectionThree-content">
                 <p class="main_sectionThree-content-itemOne">
                     Zmontuj, przerob, sklej lub nagraj i przenies Kicksa w przygode zycia.
@@ -172,82 +163,74 @@
                 </p>
             </div>
         </div>
+
         <!--SECTION THREE END-->
+
         <!--SECTION FOUR START-->
-        <div class="main_sectionFour">
-            <div class="main_sectionForu-background">
-                <img class="main_sectionFour-background-item" src="images/4/4-background.png" alt="Section Two">
-            </div>
-            <div class="main_sectionFour-content">
-                <p class="main_sectionFour-content-itemOne">
+
+        <div class="main_sectionFour-container">
+            <div class="main_sectionFour-container-content">
+                <p class="main_sectionFour-container-content-itemOne">
                     Jury wybierze 20 osob, ktore przechodza do II etapu –
                     a tutaj juz z gorki.
                 </p>
-                <p class="main_sectionFour-content-itemTwo">
+                <p class="main_sectionFour-container-content-itemTwo">
                     Wystarczy, ze opowiecie w krotkim video, dlaczego uwazacie, ze Kicks zasluguje na przygode zycia!
                     Podwojne zaproszenia wygrywaja 4 osoby i leca z Sizeer na Malte!
                 </p>
             </div>
         </div>
+
         <!--SECTION FOUR END-->
 
         <!--SECTION FIVE START-->
-        <div class="main_sectionFive">
-            <div class="main_sectionFive-container">
-                <div class="main_sectionFive-container-background">
-                    <img class="main_sectionFive-container-background-item" src="images/5/5-background.jpg" alt="Section Two">
-                </div>
-                <div class="main_sectionFive-container-content">
-                    <p class="main_sectionFive-container-content-item">
-                        7 dni w hotelu Hilton #liveisbeautiful
-                        Bilety na IOMTV #partyhard
-                        Rozrywki na Malcie  #nabogato
-                        Sneakery od Sizeer
-                        <span class="main_sectionFive-container-content-item-word"><br>#respectyourshoes<br></span>
-                        Niezbedne gadzety
-                        <span class="main_sectionFive-container-content-item-word"><br>#sizeerpack<br></span>
-                        Kieszonkowe
-                        <span class="main_sectionFive-container-content-item-word"><br>#zahajssizeerbaluj</span>
-                    </p>
-                </div>
+
+        <div class="main_sectionFive-container">
+            <div class="main_sectionFive-container-content">
+                <p class="main_sectionFive-container-content-item">
+                    7 dni w hotelu Hilton #liveisbeautiful
+                    Bilety na IOMTV #partyhard
+                    Rozrywki na Malcie  #nabogato
+                    Sneakery od Sizeer
+                    <span class="main_sectionFive-container-content-item-word"><br>#respectyourshoes<br></span>
+                    Niezbedne gadzety
+                    <span class="main_sectionFive-container-content-item-word"><br>#sizeerpack<br></span>
+                    Kieszonkowe
+                    <span class="main_sectionFive-container-content-item-word"><br>#zahajssizeerbaluj</span>
+                </p>
             </div>
         </div>
+
         <!--SECTION FIVE END-->
 
         <!--SECTION SIX START-->
-        <div class="main_sectionSix">
-            <div class="main_sectionSix-container">
-                <div class="main-sectionSix-container-background">
-                    <img class="main-sectionSix-container-background-item" src="images/6/6-background.png"/>
+        <div class="main_sectionSix-container">
+            <div class="main_sectionSix-container-content">
+                <div class="main_sectionSix-container-content-title">
+                    <p class="main_sectionSix-container-content-title-item">pobierz stickery i niech sie kicks bawi</p>
                 </div>
-                <div class="main_sectionSix-container-content">
-                    <div class="main_sectionSix-container-content-title">
-                        <p class="main_sectionSix-container-content-title-item">pobierz stickery i niech sie kicks bawi</p>
-                    </div>
-                    <div class="main_sectionSix-container-content-button">
-                        <p class="main_sectionSix-container-content-button-item">pobierz stickery</p>
-                        <i class="fas fa-chevron-right main_sectionSix-container-content-button-icon"></i>
-                    </div>
-                    <div class="main_sectionSix-container-content-stickery">
-                        <img class="main_sectionSix-container-content-stickery-item" src="images/6/stickery.png"/>
-                    </div>
-                    <div class="main_sectionSix-container-content-item">
-                        <p class="main_sectionSix-container-content-itemOne">
-                            Mozesz wziac udzial w konkursie tyle <br>razy ile chcesz. Nie lubimy ograniczen!
-                            <br>Masz czas do <span class="main_sectionSix-container-content-itemOne-word">31.05.2017.</span> Szczegoły <br>znajdziesz w regulaminie
-                        </p>
-                    </div>
+                <div class="main_sectionSix-container-content-button">
+                    <p class="main_sectionSix-container-content-button-item">pobierz stickery</p>
+                    <i class="fas fa-chevron-right main_sectionSix-container-content-button-icon"></i>
                 </div>
-                <div class="main-sectionSix-container-glasses">
-                    <img class="main-sectionSix-container-glasses-vector" src="images/6/glasses.png">
+                <div class="main_sectionSix-container-content-stickery">
+                    <img class="main_sectionSix-container-content-stickery-item" src="images/6/stickery.png"/>
                 </div>
+                <div class="main_sectionSix-container-content-item">
+                    <p class="main_sectionSix-container-content-itemOne">
+                        Mozesz wziac udzial w konkursie tyle <br>razy ile chcesz. Nie lubimy ograniczen!
+                        <br>Masz czas do <span class="main_sectionSix-container-content-itemOne-word">31.05.2017.</span> Szczegoły <br>znajdziesz w regulaminie
+                    </p>
+                </div>
+            </div>
+            <div class="main-sectionSix-container-glasses">
+                <!--<img class="main-sectionSix-container-glasses-vector" src="images/6/glasses.png">-->
             </div>
         </div>
         <!--SECTION SIX END-->
 
-
     </main>
-    <!--MAIN END-->
+
     <footer class="footer">
         <div class="footer_container">
             <div class="footer_container-top">
@@ -301,9 +284,15 @@
             </div>
         </div>
     </footer>
+
 </div>
 
 
+
+
+
+
+<script src="script/jquery.min.js"></script>
 <script src="script/script.js"></script>
 </body>
 </html>

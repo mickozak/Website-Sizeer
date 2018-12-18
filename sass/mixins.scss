@@ -8,15 +8,19 @@
   margin: 0;
   padding: 0 15px;
   font-family: futuraBoldItalic;
-  font-size: 50px;
+  font-size: 40px;
   color: black;
   text-transform: uppercase;
   background: black;
   transform: rotate(2deg);
-  @media screen and(max-width: 800px){
-    font-size: 33px;
-    transform: rotate(1deg);
+  @media screen and(max-width: 2000px){
+    font-size: 30px;
   }
+  @media screen and(max-width: 768px){
+    font-size: 20px;
+  }
+
+
 }
 
 @mixin versesBefore{
@@ -27,9 +31,6 @@
   padding: 0 7.5px;
   color: #fff;
   transform: rotate(-2deg);
-  @media screen and(max-width: 800px){
-    transform: rotate(-1deg);
-  }
 }
 
 @mixin button{
@@ -38,6 +39,19 @@
   padding: 20px;
   width: 200px;
   background-color: #ff2a69;
+  @media screen and (max-width: 768px){
+    padding: 15px;
+    width: 150px;
+  }
+  @media screen and (max-width: 600px){
+    padding: 12px;
+    width: 120px;
+  }
+  @media screen and (max-width: 600px){
+    padding: 10px;
+    width: 100px;
+  }
+
 }
 
 @mixin buttonItem{
@@ -47,6 +61,12 @@
   color: #fff;
   font-size: 20px;
   text-transform: uppercase;
+  @media screen and (max-width: 600px){
+    font-size: 15px;
+  }
+  @media screen and(max-width: 400px){
+    font-size: 12px;
+  }
 }
 
 @mixin buttonIcon{
@@ -54,6 +74,9 @@
   align-self: center;
   padding-left: 10px;
   color: #fff;
+  @media screen and(max-width: 400px){
+    font-size: 10px;
+  }
 }
 
 //FOOTER
@@ -75,3 +98,20 @@
   font-family: openSansCondensedBold;
   font-size: 12px;
 }
+
+@mixin versesSectionTwo{
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0 15px;
+  font-family: futuraBoldItalic;
+  font-size: 20px;
+  color: black;
+  text-transform: uppercase;
+  background: black;
+  transform: rotate(2deg);
+  @media screen and(max-width: 992px){
+    font-size: 15px;
+  }
+}
+
