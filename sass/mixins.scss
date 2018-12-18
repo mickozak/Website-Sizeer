@@ -8,17 +8,21 @@
   margin: 0;
   padding: 0 15px;
   font-family: futuraBoldItalic;
-  font-size: 40px;
+  font-size: 45px;
   color: black;
   text-transform: uppercase;
   background: black;
   transform: rotate(2deg);
-  @media screen and(max-width: 2000px){
-    font-size: 30px;
+  @media screen and(max-width: 1200px){
+    font-size: 28px;
   }
-  @media screen and(max-width: 768px){
-    font-size: 20px;
+  @media screen and(max-width: 790px){
+    font-size: 19px;
   }
+  @media screen and(max-width: 600px){
+    font-size: 25px;
+  }
+
 
 
 }
@@ -103,7 +107,7 @@
   display: inline-block;
   position: relative;
   margin: 0;
-  padding: 0 15px;
+  padding: 3px 15px;
   font-family: futuraBoldItalic;
   font-size: 20px;
   color: black;
