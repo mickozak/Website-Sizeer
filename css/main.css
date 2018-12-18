@@ -594,7 +594,8 @@
     grid-row: 1/2;
     margin: 60px 0;
     width: 100%;
-    text-align: center; }
+    text-align: center;
+    position: relative; }
     @media screen and (max-width: 600px) {
       .main_sectionTwo-container .main_sectionTwo-container-content {
         grid-column: 2/12;
@@ -624,11 +625,11 @@
           font-size: 12px; } }
       .main_sectionTwo-container .main_sectionTwo-container-content .main_sectionTwo-container-content-item .main_sectionTwo-container-content-item-word {
         color: #ff296b; }
-  .main_sectionTwo-container .main_sectionTwo-container-sticker-ok {
-    width: 100%;
-    position: relative;
-    top: 90%;
-    left: 500%; }
+    .main_sectionTwo-container .main_sectionTwo-container-content .main_sectionTwo-container-sticker-ok {
+      width: 10%;
+      position: absolute;
+      top: 110%;
+      left: 40%; }
 
 .main_sectionThree-container {
   background-image: url("../images/3/3-background.png");
@@ -842,7 +843,8 @@
   .main_sectionFive-container .main_sectionFive-container-content {
     grid-column: 8/12;
     grid-row: auto;
-    margin: 60px 0; }
+    margin: 60px 0;
+    position: relative; }
     @media screen and (max-width: 600px) {
       .main_sectionFive-container .main_sectionFive-container-content {
         grid-column: 2/12;
@@ -879,12 +881,15 @@
         @media screen and (max-width: 400px) {
           .main_sectionFive-container .main_sectionFive-container-content .main_sectionFive-container-content-item .main_sectionFive-container-content-item-word {
             font-size: 15px; } }
-  .main_sectionFive-container .main_sectionFour-container-sticker-flaga {
-    width: 200%;
-    top: -10%;
-    right: 90%;
-    position: relative;
-    transform: rotate(-15deg); }
+    .main_sectionFive-container .main_sectionFive-container-content .main_sectionFour-container-sticker-flaga {
+      width: 50%;
+      top: -40%;
+      right: -20%;
+      position: absolute;
+      transform: rotate(-15deg); }
+      @media screen and (max-width: 600px) {
+        .main_sectionFive-container .main_sectionFive-container-content .main_sectionFour-container-sticker-flaga {
+          display: none; } }
 
 .main_sectionSix-container {
   background-image: url("../images/6/6-background.png");
