@@ -15,6 +15,9 @@ Used:
 - SASS,
 - JavaScript.
 
-Link.: https://mickozak.github.io/Website-Sizeer/
 
-Graphics property: Sizeer, Marketing Investment Group.
+Graphics property:
+- Sizeer,
+- Marketing Investment Group.
+
+Link.: https://mickozak.github.io/Website-Sizeer/
