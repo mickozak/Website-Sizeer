@@ -260,7 +260,7 @@
       display: inline-block;
       position: relative;
       margin: 0;
-      padding: 0 15px;
+      padding: 5px 15px;
       font-family: futuraBoldItalic;
       font-size: 45px;
       color: black;
@@ -290,7 +290,7 @@
       display: inline-block;
       position: relative;
       margin: 0;
-      padding: 0 15px;
+      padding: 5px 15px;
       font-family: futuraBoldItalic;
       font-size: 45px;
       color: black;
@@ -323,7 +323,7 @@
       display: inline-block;
       position: relative;
       margin: 0;
-      padding: 0 15px;
+      padding: 5px 15px;
       font-family: futuraBoldItalic;
       font-size: 45px;
       color: black;
@@ -355,7 +355,7 @@
       display: inline-block;
       position: relative;
       margin: 0;
-      padding: 0 15px;
+      padding: 5px 15px;
       font-family: futuraBoldItalic;
       font-size: 45px;
       color: black;
@@ -385,7 +385,7 @@
       display: inline-block;
       position: relative;
       margin: 0;
-      padding: 0 15px;
+      padding: 5px 15px;
       font-family: futuraBoldItalic;
       font-size: 45px;
       color: black;
@@ -418,7 +418,7 @@
       display: inline-block;
       position: relative;
       margin: 0;
-      padding: 0 15px;
+      padding: 5px 15px;
       font-family: futuraBoldItalic;
       font-size: 45px;
       color: black;
@@ -447,22 +447,25 @@
         transform: rotate(-2deg); }
     .main_sectionOne-container .main_sectionOne-container-content .main_sectionOne-container-content-itemSeven {
       position: absolute;
-      top: 330px;
+      top: 390px;
       right: 100px;
       width: 70%; }
       @media screen and (max-width: 1200px) {
         .main_sectionOne-container .main_sectionOne-container-content .main_sectionOne-container-content-itemSeven {
-          top: 220px;
+          top: 278px;
           right: 70px; } }
       @media screen and (max-width: 790px) {
         .main_sectionOne-container .main_sectionOne-container-content .main_sectionOne-container-content-itemSeven {
-          top: 160px;
+          top: 212px;
           right: 60px; } }
+      @media screen and (max-width: 768px) and (min-width: 600px) {
+        .main_sectionOne-container .main_sectionOne-container-content .main_sectionOne-container-content-itemSeven {
+          top: 220px; } }
       @media screen and (max-width: 600px) {
         .main_sectionOne-container .main_sectionOne-container-content .main_sectionOne-container-content-itemSeven {
           width: 100%;
           right: 5%;
-          top: 200px; } }
+          top: 260px; } }
 
 .main_lastEdition-container {
   background-image: url("../images/lastedition/lastEditionBackground_02.jpg");
@@ -831,6 +834,9 @@
     position: relative;
     left: -260px;
     top: -8%; }
+    @media screen and (max-width: 600px) {
+      .main_sectionFour-container .main_sectionFour-container-sticker-wow {
+        display: none; } }
 
 .main_sectionFive-container {
   background-image: url("../images/5/5-background.jpg");

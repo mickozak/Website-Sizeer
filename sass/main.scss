@@ -363,21 +363,24 @@
     }
     .main_sectionOne-container-content-itemSeven {
       position: absolute;
-      top: 330px;
+      top: 390px;
       right: 100px;
       width: 70%;
       @media screen and(max-width: 1200px) {
-        top: 220px;
+        top: 278px;
         right: 70px;
       }
       @media screen and(max-width: 790px) {
-        top: 160px;
+        top: 212px;
         right: 60px;
+      }
+      @media screen and(max-width: 768px) and(min-width: 600px){
+        top: 220px;
       }
       @media screen and(max-width: 600px) {
         width: 100%;
         right: 5%;
-        top: 200px;
+        top: 260px;
       }
     }
   }
@@ -734,6 +737,9 @@
     position: relative;
     left: -260px;
     top: -8%;
+    @media screen and (max-width: 600px){
+      display: none;
+    }
   }
 }
 
