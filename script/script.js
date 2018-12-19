@@ -10,7 +10,3 @@ const openMenu = () => {
         headerMenu.style.height="auto"
     }
 };
-
-burgerNav.addEventListener('click',openMenu);
-
-$('.parallax-window').parallax({imageSrc: 'images/1/1-background.jpg'});
